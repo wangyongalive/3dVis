@@ -9,6 +9,7 @@ import vue from '@vitejs/plugin-vue'
 // https://vitejs.dev/config/
 /* eslint-disable */
 export default defineConfig({
+  base: './',
   plugins: [vue(),
   AutoImport({
     resolvers: [ElementPlusResolver()],
