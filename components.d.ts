@@ -9,7 +9,6 @@ declare module 'vue' {
   export interface GlobalComponents {
     Context: typeof import('./src/components/Context/index.vue')['default']
     Dialog: typeof import('./src/components/Dialog/index.vue')['default']
-    ElColorPicker: typeof import('element-plus/es')['ElColorPicker']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
